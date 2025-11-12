@@ -1,0 +1,31 @@
+body{
+background-color: rgb(78, 37, 118);
+}
+#name{
+background-color: #ffffff;
+}
+#email{
+background-color: #ffffff;
+}
+#assunto{
+color: rgb(166, 0, 255);
+background-color: rgb(76, 2, 110);
+}
+#mensagem{
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+}
+button{
+    border-radius: 200px;
+    background-color: rgb(0, 0, 0);
+    color: #fc0000;
+}
+fieldset{
+    background-color: rgb(111, 87, 135);
+    color: #190133;
+}
+.Formulario{
+    display: flex;
+    align-items: center;
+    margin: 112px 29%;    
+}

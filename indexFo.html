@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="styleFo.css">
+</head>
+<body>
+  <div>
+     <form action="" class="Formulario">
+        <fieldset>
+            <legend></legend>
+            <label for="Nome">Nome: </label>
+            <input id= "Nome" nome="Nome" type="text">
+            <br>
+            <br>
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email">
+             
+            <label for="assunto">Assunto</label>
+            <select name="assunto" id="assunto">
+             <option value="feedback">Retorno sobre o projeto</option>
+             <option value="sugest">Sugestão para projeto</option>
+             <option value="new-project">Novo projeto</option>
+             <option value="mensagem">Uma mensagem</option>
+            </select>
+              <br>
+              <br>
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="82" rows="20"></textarea>
+        </fieldset>
+        <button type="submit">Enviar</button>
+        
+     </form>
+  </div>
+  <script>
+    function validaForm(){
+      const email=document.getElementById('email');
+      let emailText = email.value.trim();
+      let valido = false
+
+      if(emailText.includes('@')){
+        console.log("Achei @!")
+        valido = true;
+      } else{
+        valido = false
+      }
+      let partesEmail = emailText.split("@");
+      if(partesEmail[0].length >=7 && partesEmail[0].length <=127){
+        console.log("O tamanho está entre 7 e 127");
+        valido = true;
+      } else{
+        valido = false;
+      }
+
+      const nome = document.getElementById("nome");
+      let nomeText = nome.value.trim();
+      if (nome.length>= 3 ){
+        console.log("Nome atende ao tamanho mínimo")
+        valido = true;
+      } else{
+        valido = false
+      }
+      const textArea= document.getElementById("mensagem");
+      let textTexto = textArea.value.trim();
+      if (textTexto !== ""){
+       // console.log("Texto não pode ser vazio!")
+        valido = true;
+      } else {
+        valido = false
+      }
+      if()
+     
+      if (valido){
+      alert("Recebemos sua mensagem, em breve metraremos em contato.")
+      }
+      else{
+        alert("Temos um erro no formulário, corrija para deguir!")
+      }
+    }
+    document.addEventListener("submit", function(e){
+      e.preventDefault();
+      validaForm();
+
+    })
+  </script>
+</body>
+</html>
