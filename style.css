@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(39, 39, 39);
+    background-color: rgb(106, 106, 106);
 }
 .Superior{
     background-color: rgb(79, 25, 25);
@@ -20,6 +20,6 @@ a{
     text-align: center;
     color:rgb(255, 255, 255) ;
 }
-.Escrita h3{
+.Escrita h1{
     color: rgb(82, 0, 0);
 }
