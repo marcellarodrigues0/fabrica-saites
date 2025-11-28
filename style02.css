@@ -5,8 +5,21 @@ body{
     background-color: rgb(79, 4, 160);
     color:rgb(255, 255, 255);
     margin: 10px;
-    text-align: center; 
+    /*text-align: center; */
+}
+.superior {
+    width: 768px;
+    margin: 0 auto;
     display: flex;
-    gap: 200px;
-
+    justify-content: space-between;
+}
+.Iscrita{
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+h1{
+  color: rgb(53, 0, 113);
+}
+h2{
+  color: rgb(185, 185, 185); 
 }

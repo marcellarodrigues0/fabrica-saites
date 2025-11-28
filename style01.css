@@ -5,14 +5,17 @@ body{
     background-color: rgb(68, 0, 100);
     color:rgb(255, 255, 255);
     margin: 10px;
-    text-align: center; 
+    text-align: center;
+}   
+.superior{
+     width: 768px;
+    margin: 0 auto;
     display: flex;
-    gap: 200px;
-  
+    justify-content: space-between;
 }
 .Historia{
-  text-align: center;
-
+    color: rgb(53, 0, 113);
+    text-align: center;
 }
 h1{
   color: rgb(185, 185, 185); 
