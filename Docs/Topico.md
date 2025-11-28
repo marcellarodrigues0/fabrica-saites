@@ -41,6 +41,8 @@ Raça:Humano,Meio humano,Semi Deus,Elfo,Anois,Globins,Minotauro,Demonio,Onis,Lar
 
 Sub Classes:
 
+Em desenvouvimento
+
 Evolução de Raças:
 Humano(Podendo subir para Semi deus ou Deus tendo uma probabidade baixa de 3% dependendo do HP pode acabar ao mentando.)
 Meio Humano()

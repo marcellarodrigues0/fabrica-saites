@@ -1,9 +1,47 @@
 body{
-
+   background-color: rgb(53, 53, 53); 
 }
 .HJ{
-    background-color: rgb(79, 25, 25);
+    background-color: rgb(68, 0, 100);
+    color:rgb(255, 255, 255);
     margin: 10px;
-    text-align: center;
+    text-align: center; 
+    display: flex;
+    gap: 200px;
   
+}
+.Historia{
+  text-align: center;
+
+}
+h1{
+  color: rgb(185, 185, 185); 
+}
+a{
+      color:rgb(31, 0, 80) 
+}
+h2{
+       color: rgb(53, 0, 113);
+}
+h3{
+  color:rgb(255, 255, 255);   
+}
+span{
+  color:rgb(40, 0, 81) ;
+}
+.Lista{
+  color:(255, 255, 255);
+}
+ul{
+   color:rgb(255, 255, 255);   
+}
+.Iscrita{
+   text-align: center; 
+}
+h4{
+  color:rgb(133, 0, 0);
+}
+img{
+   width: 600px;
+
 }

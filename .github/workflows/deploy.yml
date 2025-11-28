@@ -6,7 +6,7 @@ on:
      - main
   workflow_dispatch:
 
-permissins:
+permissions:
   contents: read
   pages: write
   id-token: write
@@ -35,4 +35,12 @@ jobs:
         uses: actions/upload-pages-artifact@v4
 
       - name: 📦 upload artifact
-        uses: actions/upload-pages-artifact@3
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+
+      - name:   Deploy to Github Pages
+        id: deployment
+        uses: actions/deploy-Pages@v4
+
+

@@ -1,0 +1,12 @@
+body{
+ background-color: rgb(53, 53, 53);
+}
+.Per{
+    background-color: rgb(79, 4, 160);
+    color:rgb(255, 255, 255);
+    margin: 10px;
+    text-align: center; 
+    display: flex;
+    gap: 200px;
+
+}
